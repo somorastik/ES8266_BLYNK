@@ -8,9 +8,9 @@
  *  https://dl.espressif.com/dl/package_esp32_index.json
  *  
  *  *********************************************************************************/
-#define BLYNK_TEMPLATE_ID "TMPLOKhq0dEK"
-#define BLYNK_DEVICE_NAME "DHT11"
-#define BLYNK_AUTH_TOKEN "wb-n5Gf7saN49AoBxeb3_NF_3DbGLv6T"
+#define BLYNK_TEMPLATE_ID "templ"
+#define BLYNK_DEVICE_NAME "name"
+#define BLYNK_AUTH_TOKEN "auth"
 
 
 #define BLYNK_PRINT Serial
@@ -23,8 +23,8 @@
 
 char auth[] = BLYNK_AUTH_TOKEN;
 
-char ssid[] = "TCoE_POS_2.4";
-char pass[] = "TCoE.2020";
+char ssid[] = "ssid";
+char pass[] = "pass";
 
 BlynkTimer timer;
 
